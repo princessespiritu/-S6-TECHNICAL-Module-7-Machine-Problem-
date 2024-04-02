@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Font';
+    src: url('./Font/Comfortaa-Bold.ttf') format('truetype');
+}
+
+body, form {
+    font-family: 'Font';
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none; 
+    border: none; 
+    background-color: #f2f2f2; 
+    box-sizing: border-box;
+    color: black; 
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: black;
+}
+
+input[type="submit"] {
+    font-family: 'Font';
+    display: block;
+    width: 100%;
+    padding: 15px; 
+    margin-top: 20px;
+    background-color: rgb(231, 99, 176);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(207, 35, 121);
+}
+
+#email, #pwd, #signupFname, #signupLname, #signupEmail, #signupPwd, #signupCpwd {
+    font-family: 'Font';
+}
+
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3); 
+}
+
+.tablinks {
+    font-family: 'Font';
+}
+
+.tablinks:hover {
+    background-color: #cccccc;
+}
+
+.tab {
+    display: flex;
+    overflow: hidden;
+    border: none;
+    background-color: #f1f1f1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 25px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 50%; 
+    text-align: center;
+}
+
+.tab button.active {
+    background-color: rgb(231, 99, 176);
+    color: white;
+    border-radius: 10px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+#SignUp {
+    font-family: Arial, sans-serif;
+}
+
+.forgotten-account {
+    color: rgb(231, 99, 176); 
+    font-size: 15px;
+}
+
+.social-button {
+    font-family: 'Font';
+    display: flex;
+    align-items: center;
+    padding: 15px; 
+    margin: 10px 0;
+    border: 1px solid #cccccc; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+    border-radius: 10px; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    background-color: white; 
+}
+
+
+.social-button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.social-button span {
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+.social-button.google:hover,
+.social-button.linkedin:hover,
+.social-button.microsoft:hover {
+    background-color: #808080; 
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.terms {
+    margin-top: 10px; 
+    font-size: 0.8em; 
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #cfd4cf;
+}
+
+
+
